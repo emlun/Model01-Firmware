@@ -540,6 +540,7 @@ void setup() {
   // This draws more than 500mA, but looks much nicer than a dimmer effect
   LEDRainbowEffect.brightness(150);
   LEDRainbowWaveEffect.brightness(150);
+  LEDRainbowWaveEffect.update_delay(50);
 
   // Yubico green
   LEDBreatheEffect.hue = 80;
