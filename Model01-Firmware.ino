@@ -541,6 +541,10 @@ void setup() {
   LEDRainbowEffect.brightness(150);
   LEDRainbowWaveEffect.brightness(150);
 
+  // Yubico green
+  LEDBreatheEffect.hue = 80;
+  LEDBreatheEffect.saturation = 178;
+
   // Set the action key the test mode should listen for to Left Fn
   HardwareTestMode.setActionKey(R3C6);
 
